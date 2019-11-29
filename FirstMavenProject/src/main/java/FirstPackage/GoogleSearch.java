@@ -32,7 +32,7 @@ System.out.println("Page load status is "+pageLoadStatus);
 
 driver.findElement(By.name("q")).sendKeys("book"+Keys.ENTER);
 
-System.out.println("book is entered in the search box.");
+System.out.println("book is entered in search box.");
 
 try {
 Thread.sleep(3000);
