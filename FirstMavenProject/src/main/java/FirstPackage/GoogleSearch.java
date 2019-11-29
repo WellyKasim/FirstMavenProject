@@ -32,6 +32,8 @@ System.out.println("Page load status is "+pageLoadStatus);
 
 driver.findElement(By.name("q")).sendKeys("book"+Keys.ENTER);
 
+System.out.println("book is entered.");
+
 try {
 Thread.sleep(3000);
 } catch (InterruptedException e) {
